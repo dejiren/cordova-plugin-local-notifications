@@ -563,7 +563,7 @@
     eventQueue = [[NSMutableArray alloc] init];
     _center    = [UNUserNotificationCenter currentNotificationCenter];
 
-    _center.delegate = self;
+//    _center.delegate = self;
     [_center registerGeneralNotificationCategory];
 
     [self monitorAppStateChanges];
